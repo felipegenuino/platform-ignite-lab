@@ -1,5 +1,5 @@
 import { CaretRight, DiscordLogo, FileArrowDown, Lightning } from 'phosphor-react'
-import { DefaultUi, Player, Youtube , Scrim} from '@vime/react';
+import { DefaultUi, Player, Youtube , Scrim, ClickToPlay} from '@vime/react';
 
 
 // Default theme. ~960B
@@ -17,9 +17,10 @@ export default function Video() {
       <div className='bg-black flex justify-center'>
           <div className='h-full w-full max-w-[1100px] max-h-[60vh] aspect-video'>
 <Player>
-  <Youtube videoId="JCa_VdIHoZs" />
+  <Youtube videoId="JCa_VdIHoZs"   />
   <DefaultUi>
   <Scrim />
+  <ClickToPlay />
   </DefaultUi>
 </Player>
           </div>
