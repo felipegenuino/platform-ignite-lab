@@ -14,7 +14,7 @@ export const Event = () => {
       <div className='flex flex-col min-h-screen'>
         <Header/>
         <main className='flex flex-1'>
-          {slug ? <Video lessonSlug={slug} /> : <div className='flex flex-1'> h1 clique em um video --> </div>}
+          {slug ? <Video lessonSlug={slug} /> : <div className='flex flex-1'> h1 clique em um video  </div>}
           <Sidebar />
         </main>
       </div>
